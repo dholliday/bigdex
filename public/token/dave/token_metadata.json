@@ -1,8 +1,8 @@
 {
-  "name": "Dave",
-  "description": "Dave Holliday in Token Form",
-  "image": "https://bigdex.lol/token/dave/token_image.png",
+  "name": "DAVE",
+  "description": "Dave Holliday in Token Form. It's awesome.",
+  "image": "https://bigdex.lol/token/dave/dave.png",
   "symbol": "DAVE",
   "seller_fee_basis_points": 0,
-  "external_url": "https://bigdex.lol"
+  "external_url": "https://bigdex.lol/dave"
 }
