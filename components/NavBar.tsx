@@ -12,7 +12,7 @@ const WalletMultiButtonDynamic = dynamic(
 
 const NavBar: FC = () => {
   return (
-    <HStack width="full" padding={8} bg="#2496b1">
+    <HStack width="full" padding={8} bg="#2496af">
       <Spacer />
       <WalletMultiButtonDynamic />
     </HStack>

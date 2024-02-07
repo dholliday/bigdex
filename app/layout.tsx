@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Providers } from "./providers";
 import NavBar from "@/components/NavBar";
+import { Bungee_Spice } from "next/font/google";
+
+const bungeeSpice = Bungee_Spice({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Big Dex",
@@ -14,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={bungeeSpice.className}>
         <Providers>
           <NavBar />
           {children}
